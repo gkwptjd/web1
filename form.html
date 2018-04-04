@@ -1,0 +1,52 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=divice-width,initial-scan=1.0">
+</head>
+<body>
+  <form action="" method="post" enctype="multipart/form-data">
+  <p>아이디 :    <input type = "text"     name="id"     value="default value"></p>
+  <p>비밀번호 :  <input type = "password" name="pwd"    value="default value"></p>
+  <p>주소 :      <input type = "text"    name="address" value="default value"></p>
+  <p><h1>제일 좋아하는 사람</h1>
+    <textarea cols="10" rows="2">미나미</textarea>
+  </p>
+  <h1>하고싶은말</h1>
+  <select name="What I want to say">
+    <option value="I love you">사랑해</option>
+    <option value="I want see you">보고싶어</option>
+    <option value="I look good">이뻐</option>
+  </select>
+  <h1>하고싶은것(다중선택)</h1>
+  <select name="What I want to do most with her." multiple>
+    <option value="Travel">여행가기</option>
+    <option value="It was delicious">맛있는거먹기!</option>
+    <option value="Walk with me.">그냥 같이 걷기</option>
+  </select>
+  <h1>얼마나 좋나요</h1>
+  <p><label for = very>많이</label>
+    <input id="very" type="radio" name="very" value="very">
+    <label for="veryvery">완전많이</label>
+    <input id="veryvery" type="radio" name="very" value="veryvery">
+    <label for="veryveryvery">짱짱많이</label>
+    <input id="veryveryvery" type="radio" name="very" value="veryveryvery" checked>
+ </p>
+ <h1>어떤가요</h1>
+ <p><label>
+   이쁨<input type="checkbox" name="be how" value="pretty">
+  </label>
+  <label>
+   귀여움<input type="checkbox" name="be how" value="cute">
+   </label>
+   <label>
+   청순함<input type="checkbox" name="be how" value="purity">
+  </label>
+ </p>
+ <input type="hidden" name="Give you" value="my pancreas.">
+  <br>입력&선택하시고 enter나 이 button을 누르시오 : <input type="submit" value="enter">
+  <br>입력&선택한 모든 정보 초기화 <input type="reset" value="원래대로">
+
+  <input type="flie" name="minami file">
+</form>
+</body>
+</html>
